@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+    
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #f2e9e4;
+    height: 200vh;
+}
+
+img{
+    float: left;
+    padding: 20px 10px 0px;
+    border-style: bold solid black;
+} 
+
+
+nav{
+    background-color: #4a4e69;
+}
+
+nav{
+    width:100%;
+    height:100px;
+    line-height: 60px; 
+    padding: 0px 100px;
+    position: sticky;
+
+}
+
+nav .logo{
+    padding: 20px 0px;
+    font-size: 20px;
+    font-family: 'Fasthand', cursive;
+    font-weight: 500;
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: ease-in-out;transition-duration: 0.1s;
+}
+
+nav .logo:hover{
+    color: #081726;
+    
+}
+
+nav ul{
+    float: right;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+}
+
+nav li a{
+    color: 
+    white;
+}
+
+nav li a:hover{
+    color:black;
+}
+
+.img-content img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+main h2{
+    font-size: 40px;
+    font-family: 'Fasthand', cursive;
+    text-align: center;
+    color: azure;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+}
